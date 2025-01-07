@@ -25,7 +25,7 @@ Ensure the following tools are installed:
 - [Docker](https://www.docker.com/)
 - [Node.js](https://nodejs.org/) (if running locally)
 - [Redis](https://redis.io/) (if not using Docker)
-- [MySQL](https://www.mysql.com/) (if not using Docker)
+- [MySQL](https://www.mysql.com/)
 
 ### Setup
 
