@@ -33,7 +33,7 @@ Ensure the following tools are installed:
 
    ```bash
    git clone https://github.com/javier-retondo/api-skeleton-ts-express.git
-   cd api-skeleton-ts
+   cd api-skeleton-ts-express
    ```
 
 2. Create a .env file in the root directory with the following structure:
