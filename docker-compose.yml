@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+   api-skeleton-ts-app:
+      build:
+         context: .
+         dockerfile: Dockerfile
+      working_dir: /usr/src/app
+      volumes:
+         - /:/usr/src/app
+         - /usr/src/app/node_modules
+      ports:
+         - '8080:8080'
+      env_file:
+         - .env
+      depends_on:
+         - redis
+      networks:
+         - api-skeleton-ts-network
+
+   redis:
+      image: redis:alpine
+      ports:
+         - '6379:6379'
+      networks:
+         - api-skeleton-ts-network
+
+networks:
+   api-skeleton-ts-network:
+      driver: bridge

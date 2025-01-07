@@ -1,0 +1,14 @@
+{
+   "swagger": "2.0",
+   "info": {
+      "title": "API SKELETON - TYPESCRIPT AND EXPRESS - ADMIN LAYER",
+      "description": "API SKELETON - TYPESCRIPT AND EXPRESS",
+      "version": "1.0"
+   },
+   "produces": ["application/json"],
+   "schemes": ["https", "http"],
+   "basePath": "/api/v2/admin",
+   "paths": {},
+   "definitions": {},
+   "securityDefinitions": {}
+}

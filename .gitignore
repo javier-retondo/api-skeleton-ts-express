@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env prod
+.env dev
+.dist
+coverage
+Dockerfiledev
+public/img/logos/comercios
+public/img/logos/empresas
+public/img/logos/users
+public/img/logos/productosServicios
+public/img/logos/categorias
+public/img/beneficios
+dist
+.eslintcache
