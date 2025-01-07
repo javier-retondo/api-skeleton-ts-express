@@ -32,7 +32,7 @@ Ensure the following tools are installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repository/api-skeleton-ts.git
+   git clone https://github.com/javier-retondo/api-skeleton-ts-express.git
    cd api-skeleton-ts
    ```
 
